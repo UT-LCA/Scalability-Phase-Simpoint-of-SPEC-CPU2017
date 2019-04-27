@@ -11,6 +11,7 @@ Interpreting the meaning of the 10 to 30 Pinballs for each workload in SPEC CPU 
 deepsjeng.test_38307_t0r1_warmup1501_prolog0_region100000038_epilog0_001_0-05045.0.address
 
 The file has many parts to its name, each with a specific meaning.
+
 "program name"."run name"_"run number"_t"thread number"r"region number"_warmup"num warm up instructions"_prolog"num prolog instructions"_region"num instructions in region of interest"_epilog"num epilog instructions"_"region number again"_"thread number again"-"weight of the region".0."file type"
 
 Of particular importance is the "weight of the region" part of the file name. This specifies how to scale the performance values of the pinball when combining the results of multiple pinballs. These weights are for the most part summarized in table II of Hot Regions in SPEC CPU 2017. However, the paper does contain typos for two workloads. Namely, Perlbench and Omnetpp have data from different runs than are included in this repository. In addition, results for Xalancbmk were not available during the paper's publication. In all cases, please refer to the file names to confirm the weights and instruction counts of the pinballs.
