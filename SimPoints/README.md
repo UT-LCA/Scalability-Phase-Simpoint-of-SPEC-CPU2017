@@ -1,7 +1,7 @@
 ## SimPoints
 
 This folder holds the results of SimPoint study.
-Pinballs for SimPoints are available for download at [release](https://github.com/UT-LCA/Scalability-Phase-Simpoint-of-SPEC-CPU2017/releases).
+Pinballs for SimPoints are available for download [here](https://github.com/UT-LCA/Scalability-Phase-Simpoint-of-SPEC-CPU2017/releases).
 
 ## Usage
 
